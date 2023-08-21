@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+h1, h2, h4{
+    color: #3d18e2;
+    margin-left: 200px;
+    
+}
+
+
+p,label{
+    color: black;
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid #ccc ;
+    padding: 5px 0;
+    
+}
+
+input[type="text"]{
+    width: 200px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+
+ul{
+    margin-left: 5%;
+}
+
+/*page header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-image: url("../img/car.jpg");
+    background-size: 1350px 290px;
+}
+
+.header h3{
+    color: #FFF;
+    background-color: rgba(109, 96, 224, 0.563);
+    background-size: 50px 280px;
+    margin: 0;
+    display: inline-block;
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+.form-container{
+    background-color: #FFF;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -32px;
+}
+
+.form-header{
+    border-bottom: 1px solid #dfdf;
+    height: 45px;
+    text-align: center;
+
+    
+}
+
+.form-header p{
+    color: #3f23b8;
+    border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin : 0 auto;
+    font-size: 40px;
+    height: 85px;
+    line-height: 85px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-body{
+    padding: 30px;
+
+}
+
+.form-title{
+    margin-bottom: 15px;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional_box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #942727;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height:50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #673ab7;
+    border: #1e5026 2px solid;
+}
+
+
